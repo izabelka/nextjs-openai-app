@@ -132,6 +132,10 @@
   font-family: var(--font-mono);
   font-size: 1.2rem;
 }
+
+.error {
+  color: red;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
