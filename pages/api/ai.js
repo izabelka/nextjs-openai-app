@@ -26,7 +26,7 @@ export default async (req, res) => {
       prompt: {
         text: prompt,
       },
-    })
+    });
 
     res.status(200).json({ text: `${completion[0].candidates[0].output}` });
   } else {
